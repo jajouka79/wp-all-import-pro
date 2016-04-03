@@ -1,0 +1,28 @@
+{
+  "name": "jajouka79/wp-all-import-pro",
+  "description": "manage imports very well indeed",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "authors": [
+      {
+          "name": "Simon Beasley",
+          "email": "simon.beasley@neveryoumind.com"
+      }
+  ],
+  "extra": {
+  	"installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+  	}
+	},
+  "require": {
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ]
+}
